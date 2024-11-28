@@ -1,0 +1,19 @@
+{
+    "name": "josephgabito/bbqueue",
+    "description": "A robust task queueing system for WordPress",
+    "type": "library",
+    "require": {
+        "php-di/php-di": "^7.0"
+    },
+    "license": "GPLv2",
+    "autoload": {
+        "psr-4": {
+            "Josephgabito\\Bbqueue\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joseph G"
+        }
+    ]
+}
