@@ -72,6 +72,7 @@ BBQueue is built on the principles of Domain-Driven Design (DDD) and Onion Archi
 - UI Layer: Exposes functionality through admin pages.
 
 ### Folder Structure
+```plaintext
 src/
 ├── Domain/          // Core domain logic (entities and services)
 ├── Application/     // Use cases and REST API
@@ -79,7 +80,7 @@ src/
 ├── UI/              // Admin dashboard and user-facing components
 ├── Core/            // Task Manager and cross-cutting concerns
 ├── Helpers/         // Utility files (e.g., DI container configuration)
-
+```
 ---
 
 ## 📖 Documentation
